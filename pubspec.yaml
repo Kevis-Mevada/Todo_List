@@ -1,0 +1,33 @@
+name: todo_app
+description: "A modern To-Do app with Flutter and Firebase."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.2.3 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # Firebase
+  firebase_core: ^2.27.0
+  firebase_auth: ^4.17.8
+  cloud_firestore: ^4.15.8
+  google_sign_in: ^6.2.1
+
+  # UI & Animations
+  flutter_animate: ^4.5.0
+  google_fonts: ^6.2.1
+  cupertino_icons: ^1.0.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
+
+
